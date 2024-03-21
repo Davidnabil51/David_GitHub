@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now - Fitness Empire</title>
+    <link rel="icon" type="image/x-icon" href="../imgs/dumbbell_icon_image.jpg">
+    <link rel="stylesheet" href="../css/forms.css">
+    <style>
+
+        .register-container {
+            background-color: rgba(255, 255, 255, 0.8); 
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+
+        .payment-btn {
+            background-color: #4a0072;
+            color: white;
+            border: none;
+            padding: 15px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+
+            margin-bottom: 20px;
+        }
+
+        .payment-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+
+
+ 
+ <!-- Header -->
+    <header>
+        <h1 id="top" style="margin: 0;font-size:70px;">Fitness Empire</h1>
+        <iframe src="nav.html" frameborder="0"></iframe>
+    </header>
+
+
+    <div class="container register-container">
+        <h2>Book Now</h2>
+        <form action="../html/Add_payment_Method.html">
+
+            <label for="Phone Number">Phone Number:</label>
+            <input type="Phone Number" id="Phone Number" name="Phone Number" required pattern="[0-9]+" title="Please enter only numbers">
+
+            <br>
+
+            <label for="hours">Choose Available Hours:</label>
+            <select id="hours" name="hours" required>
+                <option value="">Select</option>
+                <option value="5am - 7am">5am - 7am</option>
+                <option value="6am - 8am">6am - 8am</option>
+                <option value="7am - 9am">7am - 9am</option>
+                <option value="8am - 10am">8am - 10am</option>
+                <option value="9am - 11am">9am - 11am</option>
+                <option value="10am - 12pm">10am - 12pm</option>
+                <option value="11am - 1pm">11am - 1pm</option>
+                <option value="12pm - 2pm">12pm - 2pm</option>
+                <option value="1pm - 3pm">1pm - 3pm</option>
+                <option value="2pm - 4pm">2pm - 4pm</option>
+                <option value="3pm - 5pm">3pm - 5pm</option>
+                <option value="4pm - 6pm">4pm - 6pm</option>
+                <option value="5pm - 7pm">5pm - 7pm</option>
+                <option value="6pm - 8pm">6pm - 8pm</option>
+                <option value="7pm - 9pm">7pm - 9pm</option>
+                <option value="8pm - 10pm">8pm - 10pm</option>
+                <option value="9pm - 11pm">9pm - 11pm</option>
+                <option value="10pm - 12am">10pm - 12am</option>
+            </select>
+
+            <input type="submit" value="Go to Payment" class="payment-btn">
+        </form>
+    </div>
+
+    <iframe src="footer.html" frameborder="0"></iframe>
+
+</body>
+</html>

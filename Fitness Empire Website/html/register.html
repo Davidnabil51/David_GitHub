@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form - Fitness Gym</title>
+	<link rel="icon" type="image/x-icon" href="../imgs/dumbbell_icon_image.jpg">
+    <link rel="stylesheet" href="../css/forms.css">
+</head>
+<body>
+
+  
+ <!-- Header -->
+    <header>
+        <h1 id="top" style="margin: 0;font-size:70px;">Fitness Empire</h1>
+        <iframe src="nav.html" frameborder="0"></iframe>
+    </header>
+
+
+    <!-- Registration Form Section -->
+    <div class="container register-container">
+        <h2>Registration Form</h2>
+        <form action="#">
+            <!-- Registration form content here -->
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required pattern="[A-Za-z]+" title="Please enter only letters">
+            
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required pattern="[A-Za-z]+" title="Please enter only letters">
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="disease">Any Chronic Disease:</label>
+            <input type="checkbox" id="disease" name="disease">
+
+            <label for="daysFree">Number of Days Free in the Week:</label>
+            <select id="daysFree" name="daysFree" required>
+                <option value="">Select</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+            </select>
+
+            <label for="job">Job:</label>
+            <input type="text" id="job" name="job" pattern="[A-Za-z]+" title="Please enter only letters">
+
+            <label for="mobile">Mobile Phone:</label>
+            <input type="text" id="mobile" name="mobile" required pattern="[0-9]+" title="Please enter only numbers">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="city">City:</label>
+            <select id="city" name="city" required>
+                <option value="">Select</option>
+                <option value="cairo">Cairo</option>
+                <option value="alexandria">Alexandria</option>
+                <option value="giza">Giza</option>
+                <!-- Add more city options as needed -->
+            </select>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select</option>
+                <option value="egypt">Egypt</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+                <!-- Add more country options as needed -->
+            </select>
+
+            <input type="submit" value="Submit" class="submit-btn">
+        </form>
+    </div>
+
+
+
+
+</body>
+    <!-- Footer -->
+      <iframe src="footer.html" frameborder="0"></iframe>
+</html>

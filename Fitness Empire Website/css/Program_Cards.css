@@ -1,0 +1,42 @@
+		  @import  url("Style.css");        
+
+        .cardio-blast {
+            display: block; 
+            width: auto;
+            margin: 10px;
+            padding: 10px;
+            background-color: #ecf0f1;
+            border-radius: 4px;
+            box-shadow: 0 0 20px rgb(158,39,174);
+            text-align: center;
+        } 
+        p{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 32px;
+            font-weight: bold;
+        }
+        h4{
+            text-align: left;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 26px;
+            font-weight:bold;
+            color: black;
+        }
+        h3{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 22px;
+            font-weight:normal;
+        }
+        
+        ul{
+        list-style-type: disc; 
+        }   
+
+        ul li
+        {
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          font-size: 22px;
+          font-weight:normal;
+          color: #000;
+          text-align: left;
+        }

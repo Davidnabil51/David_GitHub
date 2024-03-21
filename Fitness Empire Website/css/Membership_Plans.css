@@ -1,0 +1,76 @@
+@import  url("Style.css");        
+		
+
+       
+		#Membership_Plans {
+            overflow: hidden;
+            text-align: center; /* Center the inline-block elements */
+        }
+		.plan-card {
+			display: inline-block;
+			vertical-align: middle;
+            border: 2px solid #6800a1;
+            border-radius: 16px;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+			height:300px;
+            width: 400px;
+            background-color: #fff;
+            transition: transform 0.3s, box-shadow 0.3s;
+			    position: relative;
+
+        }
+        .plan-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        .plan-title {
+            font-size: 2.0em;
+            font-weight: bold;
+            color: #000;
+        }
+		.recommended-title {
+            font-size: 2.2em;
+            font-weight: bold;
+            color: #ffd700;
+			text-shadow: 1px 1px #ccad00;
+
+        }
+        .plan-price {
+            font-size: 1.4em;
+            margin-top: 10px;
+            color: #6800a1;
+        }
+        .plan-features {
+            margin-top: 10px;
+        }
+        .plan-features ul {
+            list-style: disc;
+            padding: 10px;
+            margin: 5px;
+        }
+        .plan-features li {
+            margin-bottom: 10px;
+            color: #000;
+			text-align: left;
+			font-size: 16px;
+
+        }
+		
+		.subscription-button {
+            background-color: #6800a1;
+            color: #fff;
+            padding: 10px 20px;
+			font-size: 18px;
+            text-decoration: none;
+            border-radius: 16px;
+            margin-top: 0px;
+            transition: background-color 0.3s;
+            position: absolute;
+            top: 290px; 
+            left: 168px;
+        }
+        .subscription-button:hover {
+            background-color: #4a0072;
+        }

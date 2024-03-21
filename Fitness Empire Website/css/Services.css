@@ -1,0 +1,90 @@
+
+
+
+
+		  @import  url("Style.css");        
+    
+* {
+ 
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+
+#banner {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#banner video {
+    width: 70%;
+    height: 80%;
+}
+
+header {
+padding-bottom: 150px;
+   
+
+}
+
+/* Event sections styles */
+#events {
+    background-image: url('../imgs/Dumbles.jpg');
+
+    background-size: cover; 
+    background-position: center;
+    padding: 40px 0;
+}
+
+.event {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.event img {
+    max-width: 50%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+margin :50px;
+}
+
+.paragraph-container {
+    max-width: 100%;
+font-size : 30px;
+text-align :center;
+}
+
+.paragraph-box {
+   max-width: 600px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.5); 
+
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    padding: 20px;
+margin: 80px;
+    border-radius: 70px;
+}
+
+
+
+
+.container-fluid {
+    padding: 0px; 
+}
+
+.carousel-inner
+ .item img {
+    width: 100%; 
+}

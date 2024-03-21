@@ -1,0 +1,146 @@
+
+
+		  @import  url("Style.css");        
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+
+
+/* Banner styles */
+#banner {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#banner video {
+    width: 100%;
+    height: auto;
+}
+
+.header-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+font-size : 70px;
+    color: #fff;
+}
+
+
+header {
+padding-bottom: 160px;
+   
+
+}
+/* Event sections styles */
+#events {
+    background-image: url('../imgs/bikes.png');
+
+    background-size: cover; 
+    background-position: center;
+    padding: 40px 0;
+}
+
+.event {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.event img {
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+margin :100px;
+}
+
+.paragraph-container {
+    max-width: 100%;
+font-size : 30px;
+text-align :center;
+}
+
+.paragraph-box {
+    margin: 150px ;
+    background-color: rgba(255, 255, 255, 0.8); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    padding: 20px;
+    border-radius: 60px;
+}
+
+/* Exclusive classes section styles */
+#exclusive-classes {
+    background-image: url('../imgs/Dumbles.jpg');
+    background-size: cover; 
+    background-position: center;
+
+    text-align: center;
+    padding: 40px 0;
+}
+.middle{
+    font-size: 54px;
+ border-top: 5px solid #ffffff;
+ border-bottom: 5px solid #ffffff;
+    margin-bottom: 50px;
+margin-top:50px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.exclusive-classes-title {
+    font-size: 84px;
+    border-bottom: 2px solid #4a0072;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.program-card {
+    width: 40%; 
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.program-card img {
+    width: 100%;
+    border-radius: 20px 8px 0 0;
+}
+
+.program-details {
+    padding: 20px;
+}
+
+.program-details p {
+    margin-bottom: 50px;
+    font-size: 39px; 
+}
+
+.program-details button {
+    background-color: #4a0072;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.program-details button:hover {
+    background-color: #6800a1;
+}
+
+

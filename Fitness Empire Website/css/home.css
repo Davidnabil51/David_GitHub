@@ -1,0 +1,73 @@
+
+		
+		
+		  @import  url("Style.css");        
+
+       
+        .program-card {
+            display: inline-block; 
+            width: 30%;
+            margin: 20px;
+            transition: transform 0.3s ease;
+            background-color: #ecf0f1;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			overflow: hidden;
+            text-align: center;
+} 
+
+
+        .program-card:hover {
+            transform: scale(1.1);
+        }
+		
+		.program-card img {
+            width: 100%; 
+            height: auto; 
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+
+        .program-details {
+            text-align: center;
+            padding: auto;
+        }
+		
+		.button {
+            border: outset;
+			border-color: #fc6afc;
+            background-color: #6800a1;
+            color: white;
+            padding: 25px 25px;
+            text-align: center;
+            text-decoration: underline ;
+            text-shadow : 1px 1px #ee7aff;
+            display: inline-block;
+            font-size: 28px;
+            margin: 10px 8px;
+            cursor: pointer;
+            border-radius: 256px;
+}
+
+		area {
+         display: none;
+        }
+
+        #schedule, #about-us, #contact, #membership, #special-events, #gallery, #faq {
+            margin-top: 40px;
+        }
+
+        #gallery img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+        }
+
+       
